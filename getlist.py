@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = '9f09747e404a476325a17d13f76302ca447ab4b0f50e5221aaf967dcd2b17871'
+API_KEY = '*'
 url = "https://api.tigerbot.com/bot-service/plugin/custom/get_user_plugin_list"
 
 headers = {
