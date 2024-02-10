@@ -3,7 +3,7 @@ from langchain.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '*'
 splitter = CharacterTextSplitter(separator = '\n', chunk_size = 1000, chunk_overlap = 200, length_function = len)
 # emb = OpenAIEmbeddings()
 emb = HuggingFaceEmbeddings(model_name = 'all-MiniLM-L6-v2')
