@@ -1,5 +1,5 @@
 
-API_KEY = '961e87a33df923f0eeea7a865e0c06eac71f99e8cc2ff7577f5b8ec5073e63a3'
+API_KEY = '*'
 # import requests
 #
 # url = "https://api.tigerbot.com/bot-service/ft/upload_train_data"
