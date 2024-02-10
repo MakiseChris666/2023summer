@@ -1,12 +1,12 @@
 import openai
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '*'
 _char = ['user', 'assistant']
 
 def uploadMsg(msg, model = 'gpt-3.5-turbo'):
-    os.environ['OPENAI_API_KEY'] = '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'
-    openai.api_key = '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'
+    os.environ['OPENAI_API_KEY'] = '*'
+    openai.api_key = '*'
     regularized = []
     for i, m in enumerate(msg):
         regularized.append({
