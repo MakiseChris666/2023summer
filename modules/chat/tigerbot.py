@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY = '961e87a33df923f0eeea7a865e0c06eac71f99e8cc2ff7577f5b8ec5073e63a3'
+API_KEY = '*'
 url = "https://api.tigerbot.com/bot-service/ai_service/gpt"
 headers = {
   'Authorization': 'Bearer ' + API_KEY
